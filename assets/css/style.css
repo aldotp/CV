@@ -268,7 +268,7 @@ nav li a:hover{
 .social h2{
     text-align: center;
     padding: 45px 0px 35px 0px;
-    color: #FC4F4F;
+    color: red;
     /* margin-top: 30px; */
     margin-bottom: 80px;
 }
@@ -310,7 +310,7 @@ nav li a:hover{
 }
 
 .med:hover{
-    color: red;
+    color: #FC4F4F;
 }
 
 
@@ -595,7 +595,7 @@ footer p {
         }
     
         .about{
-            height: 230px;
+            height: 170px;
         }
     
         .container-content{
@@ -626,7 +626,7 @@ footer p {
         .content-kanan h2{
             /* font-size: 40px; */
             /* padding: 10px; */
-            margin-top: 10px;
+            margin-top: 5px;
             margin-bottom: 0px;
         
         }
@@ -648,8 +648,8 @@ footer p {
         /* education and skills */
     
         .profile, .skill{
-            width: 150px;
-            height: 150px;
+            width: 170px;
+            height: 170px;
             border-radius: 50px;
             padding: 20px;
             margin: auto;
@@ -659,7 +659,7 @@ footer p {
         }
     
         .profile h2, .skill h2{
-            font-size: 20px;
+            font-size: 15px;
             margin-bottom: 0px;
             padding-inline-end: 5px;
         }
@@ -673,7 +673,7 @@ footer p {
         
     
         .profile li, .skill li{
-            margin-bottom: 3px;
+            margin-bottom: 0px;
             padding: 0px;
             font-size: 8px;
     
@@ -694,18 +694,22 @@ footer p {
         }
     
         .pengalaman h2{
-            font-size: 20px;
+            font-size: 15px;
             /* margin-bottom: 30px; */
             padding-bottom: 10px;
         }
     
         /* social media */
+        .social h2{
+            font-size: 15px;
+        }
     
         .media{
             /* border: 1px solid white; */
             width: 300px;
             height: 100px;
         }
+
         .media a{
             font-size: 10px;
         }
