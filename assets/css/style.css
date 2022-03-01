@@ -497,6 +497,10 @@ footer p {
     .media a{
         font-size: 10px;
     }
+    .med{
+        margin-top: 3px;
+        margin-right: 5px;
+    }
 
     footer{
         font-size: 10px;
