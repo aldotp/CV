@@ -505,7 +505,6 @@ footer{
     }
 
     .profile h2, .skill h2{
-        font-size: 20px;
         margin-bottom: 1px;
         padding-inline-end: 5px;
     }
@@ -534,13 +533,11 @@ footer{
     }
 
     .pengalaman li{
-        font-size: 10px;
         padding: 0px;
         padding-bottom: 5px;
     }
 
     .pengalaman h2{
-        font-size: 20px;
         /* margin-bottom: 30px; */
         padding-bottom: 10px;
     }
