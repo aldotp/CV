@@ -36,7 +36,7 @@ nav li a:hover{
 .left li a {
     text-decoration: none;
     color:white;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     font-family: 'Poppins';
 }
@@ -45,7 +45,7 @@ nav li a:hover{
     text-decoration: none;
     padding: 5px;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     font-family: 'Poppins';
     
@@ -116,7 +116,7 @@ nav li a:hover{
 .title h1{
     /* border-radius: 15px; */
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     padding: 10px;
     background-color: #1F1D36;
