@@ -134,7 +134,7 @@ nav li a:hover{
 .about{
     display: flex;
     height: 300px;
-    border: 15px;
+    /* border: 15px; */
 }
 
 .content-kiri{
@@ -174,7 +174,7 @@ nav li a:hover{
 .content-kanan h2{
     color: #F4D19B;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 }
 
