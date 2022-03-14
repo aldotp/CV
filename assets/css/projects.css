@@ -10,14 +10,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #3e4955;
-}
-
-.distance{
-    margin: 0px 100px 0px 100px;
-}
-
 
 .header-nav{
     background-color: #222831;
@@ -82,7 +74,7 @@ nav li a:hover{
     text-align: center;
     color: white;
     background-color: #93B5C6;
-    background: url(../img/jumbotron.jpg);
+    background: url(../img/jumbo2.jpg);
     background-size: cover;
     background-position: 0px;
     height: 400px;
@@ -115,7 +107,7 @@ nav li a:hover{
     color: black;
     display: flex;
     flex-direction: column;
-    background-color: #506D84;
+    background-color: #055494;
 }
 .title{
     /* border-bottom: 1px solid white; */
@@ -133,7 +125,7 @@ nav li a:hover{
 
 .about{
     display: flex;
-    height: 300px;
+    height: 350px;
     border: 15px;
 }
 
@@ -164,7 +156,7 @@ nav li a:hover{
 .content-kanan{
     width: 70%;
     /* margin: 20px; */
-    /* margin: 10px 20px 20px 20px; */
+    margin: 10px 20px 20px 20px;
     /* background-color: #F7ECDE; */
     padding: 20px;
     border-radius: 10px;
@@ -174,7 +166,7 @@ nav li a:hover{
 .content-kanan h2{
     color: #F4D19B;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 
@@ -200,7 +192,6 @@ nav li a:hover{
     /* background-color: #FFD32D; */
     /* background-color: #041C32; */
     background-color: #212422;
-    background-color: grey;
 }
 .profile, .skill{
     width: 240px;
@@ -244,7 +235,7 @@ nav li a:hover{
     /* border-radius: 15px; */
     /* background-color: #3489aa; */
     /* border: 4px solid #398AB9; */
-    background-color: #041C32;
+    background-color: #0e5779;
     display: flex;
     height: 300px;
     width: 100%;
@@ -282,9 +273,9 @@ nav li a:hover{
 }
 
 .social{
-    background-color: #EF6D6D;
+    background-color: #aa0f3b;
     /* background-color: black; */
-    height: 300px;
+    height: 350px; 
     /* border: 1px solid white; */
     /* display: flex; */
     /* border: 4px solid #398AB9; */
@@ -294,9 +285,9 @@ nav li a:hover{
     text-align: center;
     font-size: 17px;
     padding: 45px 0px 35px 0px;
-    color: #9c0707;
+    color: #FF5959;
     /* margin-top: 30px; */
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .media{
@@ -342,27 +333,23 @@ nav li a:hover{
 
 
 footer{
+    
     text-align: center;
     bottom: 0;
     background-color: #11324D;
     padding: 5px;
     color: white;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
     padding: 10px;
-    
+    font-family: 'Open Sans Condensed';
 }
+
 footer p {
     font-family: 'Inter', Times, serif;
 }
 
-@media screen and (max-width: 1200px) {
-    .content-kiri img{
-        /* margin: 20px 0px 10px 0px; */
-        width: 200px;
-        border: 1px dotted white;
-    }
-}
+
 
 
 @media screen and (max-width: 1000px) {
@@ -390,7 +377,7 @@ footer p {
     }
     .content-kiri img{
         /* margin: 20px 0px 10px 0px; */
-        width: 150px;
+        width: 180px;
         border: 1px dotted white;
     }
     /* test */
@@ -430,42 +417,11 @@ footer p {
         width: 220px;
         height: 220px;
     }
-    .media{
-        font-size: 10px;
-        display: list-item;
-        width: 100px;
-
-    }
-
-
-    .media img{
-        width: 30px;
-        height: 30px;
-    }
-    .social h2{
-        padding: 10px 0px 0px 0px;
-        margin-bottom: 20px;
-    }
-    .social{
-        height: 350px;
-    }
-    .instagram, .linkedin, .whatsapp, .gmail{
-        display: flex;
-        flex-direction: column;
-        margin: 0px;
-        padding: 5px;
-    }
-    .social a{
-        padding-left: 0px;
-    }
 
 }
 
 
 @media screen and (max-width: 700px) {
-    .distance{
-        margin: 0px 70px 0px 70px;
-    }
     /* navbar */
     .container-nav{
         margin-left: 30px;
@@ -502,17 +458,16 @@ footer p {
     }
 
     .about{
-        height: 240px;
+        height: 200px;
     }
 
 
     .content-kiri{
-        width: 40%;
-        margin: 30px 0px 0px 0px; 
+        /* margin: 5px; */
     }
     .content-kiri img{
         /* margin: 10px 0px 10px 0px; */
-        width: 80px;
+        width: 120px;
         border: 1px dotted white;
     }
     .content-kanan{
@@ -526,14 +481,14 @@ footer p {
     }
 
     .content-kanan p{
-        font-size: 8px;
+        font-size: 10px;
         /* padding: 0 40px 0px 40px; */
         /* padding: 10px; */
     }
 
     .content-kanan li{
         padding: 0px;
-        font-size: 8px;
+        font-size: 10px;
     }
     .content-kanan ul{
         margin-top: 3px;
@@ -542,16 +497,9 @@ footer p {
 
     /* education and skills */
 
-    .container-portofolio{
-        /* margin: 10px; */
-        display: flex;
-        flex-direction: column;
-        height: 400px;
-    }
-
     .profile, .skill{
-        width: 160px;
-        height: 160px;
+        width: 180px;
+        height: 180px;
         border-radius: 50px;
         padding: 20px;
         margin: auto;
@@ -583,15 +531,14 @@ footer p {
     /* experience */
 
     .pengalaman{
-        height: 190px;
-        width: 190px;  
+        height: 220px;
+        width: 220px;  
           
     }
 
     .pengalaman li{
         padding: 0px;
         padding-bottom: 5px;
-        font-size: 10px;
     }
 
     .pengalaman h2{
@@ -602,33 +549,17 @@ footer p {
     /* social media */
 
     .media{
+
+        /* height: 500px; */
+        width: 400px;
+        height: 100px;
+    }
+    .media a{
         font-size: 10px;
-        display: list-item;
-        width: 100px;
-
     }
-
-
-    .media img{
-        width: 30px;
-        height: 30px;
-    }
-
-    .social{
-        height: 350px;
-    }
-    .social h2{
-        padding: 10px 0px 0px 0px;
-        margin-bottom: 20px;
-    }
-    .instagram, .linkedin, .whatsapp, .gmail{
-        display: flex;
-        flex-direction: column;
-        margin: 0px;
-        padding: 5px;
-    }
-    .social a{
-        padding-left: 0px;
+    .med{
+        margin-top: 3px;
+        margin-right: 5px;
     }
 
     footer{
@@ -638,196 +569,179 @@ footer p {
 
 
 @media screen and (max-width: 400px) {
-
-    .distance{
-        margin: 0px 50px 0px 50px;
-    }
-    /* navbar */
-    .container-nav{
-        margin-left: 5px;
-        margin-right: 5px;
-        padding: 15px;
-        
-    }
-    .left li a{
-        font-size: 8px;
-    }
-    .right li a{
-        padding: 0px;
-        font-size: 8px;;
-        
-    }
-    .right li{
-        /* margin-left: 25px; */
-        padding-right: 10px;
-    }
-
-    /* jumbotron */
-
-    .jumbotron h1{
-        font-size: 24px;
-    }
-    
-    .jumbotron h2{
-        font-size: 12px;
-    }
-
-    /* about */
-    .title h1{
-        font-size: 20px;
-    }
-
-    .about{
-        height: 170px;
-    }
-
-    .container-content{
-        /* margin: 20px; */
-        height: auto;
-    }
-
-    .content-kiri{
-        width: 50%;
-        margin: 30px 0px 0px 0px;
-    }
-    .content-kiri img{
-        /* margin: 10px 0px 10px 0px; */
-        width: 50px;
-        border: 1px dotted white;
-    }
-
-    /* test */
-    .content-kanan{
-        width: 70%;
-        /* margin: 20px; */
-        margin: 10px 20px 20px 20px;
-        /* background-color: #F7ECDE; */
-        padding: 0px;
-        border-radius: 10px;
-        text-align: justify;
-    }
-    
-    .content-kanan h2{
-        /* font-size: 40px; */
-        /* padding: 10px; */
-        margin-top: 5px;
-        margin-bottom: 0px;
-        font-size: 12px;
-    
-    }
-    
-    .content-kanan p{
-        font-size: 7px;
-        color: white;
-    }
-    .content-kanan ul{
-        margin-top: 0px;
-        margin-left: 19px;
-    }
-    
-    .content-kanan li{
-        padding: 0px;
-        font-size: 7px;
-    }
-    /* *** */
-
-    /* education and skills */
-    .container-portofolio{
-        /* margin: 10px; */
-        display: flex;
-        flex-direction: column;
-    }
-
-    .profile, .skill{
-        width: 140px;
-        height: 140px;
-        border-radius: 50px;
-        padding: 20px;
-        margin: auto;
-        background-color: #414141;
-        color: white;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }
-
-    .profile h2, .skill h2{
-        font-size: 15px;
-        margin-bottom: 0px;
-        padding-inline-end: 5px;
-    }
-
-
-    .profile ul, .skill ul{
-        margin-top: 0px;
-        margin-left: 20px;
-    }
-
-    
-
-    .profile li, .skill li{
-        margin-bottom: 0px;
-        padding: 0px;
-        font-size: 8px;
-
-    }
-
-    /* experience */
-
-    .pengalaman{
-        height: 140px;
-        width: 140px;  
+        /* navbar */
+        .container-nav{
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 15px;
             
-    }
+        }
+        .left li a{
+            font-size: 8px;
+        }
+        .right li a{
+            padding: 0px;
+            font-size: 8px;;
+            
+        }
+        .right li{
+            /* margin-left: 25px; */
+            padding-right: 10px;
+        }
+    
+        /* jumbotron */
+    
+        .jumbotron h1{
+            font-size: 24px;
+        }
+        
+        .jumbotron h2{
+            font-size: 12px;
+        }
+    
+        /* about */
+        .title h1{
+            font-size: 20px;
+        }
+    
+        .about{
+            height: 170px;
+        }
+    
+        .container-content{
+            /* margin: 20px; */
+        }
+    
+        .content-kiri{
+            /* margin: 5px; */
+        }
+        .content-kiri img{
+            /* margin: 10px 0px 10px 0px; */
+            width: 80px;
+            border: 1px dotted white;
+        }
 
-    .pengalaman li{
-        font-size: 6px;
-        padding: 0px;
-        padding-bottom: 5px;
-    }
+        /* test */
+        .content-kanan{
+            width: 70%;
+            /* margin: 20px; */
+            margin: 10px 20px 20px 20px;
+            /* background-color: #F7ECDE; */
+            padding: 0px;
+            border-radius: 10px;
+            text-align: justify;
+        }
+        
+        .content-kanan h2{
+            /* font-size: 40px; */
+            /* padding: 10px; */
+            margin-top: 5px;
+            margin-bottom: 0px;
+        
+        }
+        
+        .content-kanan p{
+            font-size: 8px;
+            color: white;
+        }
+        .content-kanan ul{
+            margin-top: 0px;
+            margin-left: 19px;
+        }
+        
+        .content-kanan li{
+            padding: 0px;
+            font-size: 8px;
+        }
+        /* *** */
+    
+        /* education and skills */
+    
+        .profile, .skill{
+            width: 150px;
+            height: 150px;
+            border-radius: 50px;
+            padding: 20px;
+            margin: auto;
+            background-color: #414141;
+            color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+    
+        .profile h2, .skill h2{
+            font-size: 15px;
+            margin-bottom: 0px;
+            padding-inline-end: 5px;
+        }
+    
+    
+        .profile ul, .skill ul{
+            margin-top: 0px;
+            margin-left: 20px;
+        }
+    
+        
+    
+        .profile li, .skill li{
+            margin-bottom: 0px;
+            padding: 0px;
+            font-size: 8px;
+    
+        }
+    
+        /* experience */
+    
+        .pengalaman{
+            height: 175px;
+            width: 175px;  
+              
+        }
+    
+        .pengalaman li{
+            font-size: 8px;
+            padding: 0px;
+            padding-bottom: 5px;
+        }
+    
+        .pengalaman h2{
+            font-size: 15px;
+            /* margin-bottom: 30px; */
+            padding-bottom: 10px;
+        }
+    
+        /* social media */
+        .social h2{
+            font-size: 15px;
+        }
+    
+        .media{
+            /* border: 1px solid white; */
+            width: 300px;
+            height: 100px;
+        }
 
-    .pengalaman h2{
-        font-size: 15px;
-        /* margin-bottom: 30px; */
-        padding-bottom: 10px;
-    }
-
-    /* social media */
-    .social h2{
-        font-size: 15px;
-    }
-
-    .media{
-        font-size: 10px;
-        display: list-item;
-        width: 100px;
-
-    }
-
-
-    .media img{
-        width: 30px;
-        height: 30px;
-    }
-    .social h2{
-        padding: 10px 0px 0px 0px;
-        margin-bottom: 20px;
-    }
-    .instagram, .linkedin, .whatsapp, .gmail{
-        /* display: flex; */
-        margin: 0px;
-        padding: 5px;
-    }
-
-    footer{
-        font-size: 10px;
-    }
+        .media a{
+            font-size: 10px;
+            /* display: contents; */
+        }
+        .med{
+            margin-top: 3px;
+            margin-right: 9px;
+        }
+        .instagram, .linkedin, .whatsapp, .gmail{
+            /* display: flex; */
+            flex-direction: column;
+            margin: 0 auto;
+        }
+    
+        footer{
+            font-size: 10px;
+        }
 
     
 }
 
 @media screen and (max-width: 300px) {
-    .distance{
-        margin: 0px 50px 0px 50px;
-    }
     .content-kanan h2{
         font-size: 12px;
     }
