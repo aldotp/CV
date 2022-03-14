@@ -386,7 +386,10 @@ footer p {
     }
     
     .about{
-        height: 250px;
+        height: 200px;
+    }
+    .content-kiri{
+        margin: 25px 0px 0px 0px;
     }
     .content-kiri img{
         /* margin: 20px 0px 10px 0px; */
@@ -405,7 +408,7 @@ footer p {
     }
     
     .content-kanan h2{
-        /* font-size: 40px; */
+        font-size: 16px;
         /* padding: 10px; */
         margin-top: 10px;
         margin-bottom: 10px;
@@ -517,7 +520,7 @@ footer p {
     }
     .content-kanan{
         margin: 10px;
-        padding: 5px;
+        /* padding: 5px; */
     }
     .content-kanan h2{
         padding: 0px;
@@ -536,7 +539,7 @@ footer p {
         font-size: 8px;
     }
     .content-kanan ul{
-        margin-top: 3px;
+        /* margin-top: 3px; */
         /* margin-left: 19px; */
     }
 
