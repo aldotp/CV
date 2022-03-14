@@ -328,6 +328,10 @@ nav li a:hover{
     height: 30px;
 
 }
+.media img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
 
 
 .instagram, .linkedin, .whatsapp, .gmail{
