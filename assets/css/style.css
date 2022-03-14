@@ -502,7 +502,7 @@ footer p {
     }
 
     .about{
-        height: 240px;
+        height: 160px;
     }
 
 
@@ -674,11 +674,11 @@ footer p {
 
     /* about */
     .title h1{
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .about{
-        height: 170px;
+        height: 150px;
     }
 
     .container-content{
