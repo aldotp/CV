@@ -107,7 +107,7 @@ nav li a:hover{
 .jumbotron h2{
     font-size: 20px;
     font-family: 'Inter';
-    color: black;
+    /* color: black; */
 }
 
 .container-outside{
@@ -692,7 +692,7 @@ footer p {
     }
 
     .about{
-        height: 150px;
+        height: 140px;
     }
 
     .container-content{
@@ -840,7 +840,7 @@ footer p {
 
 @media screen and (max-width: 300px) {
     .distance{
-        margin: 0px 50px 0px 50px;
+        margin: 0px 20px 0px 20px;
     }
     .content-kanan h2{
         font-size: 12px;
